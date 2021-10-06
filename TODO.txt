@@ -1,0 +1,3 @@
+Make a permission check for everything chatcolorgui.nickname.darkred<.bold>
+
+Make a config option for require bold permission to use bold name.

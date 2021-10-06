@@ -1,0 +1,22 @@
+package com.i0dev.ChatColorGUI.objects;
+
+import lombok.*;
+import org.bukkit.Material;
+
+import java.util.List;
+
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+public class NicknameOption {
+    private String colorName;
+    private String displayName;
+    private String itemMaterial;
+    private short itemData;
+    private int itemAmount;
+    private String permission;
+    private String obtainedBy;
+    private List<String> colorCodes;
+}

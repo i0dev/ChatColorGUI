@@ -1,0 +1,30 @@
+name: ${project.build.finalName}
+main: com.i0dev.ChatColorGUI.Heart
+version: ${project.version}
+author: i01
+description: Open a GUI to
+website: ${project.url}
+softdepend:
+  - Factions
+  - PlaceHolderAPI
+depend:
+  - NBTAPI
+commands:
+  ChatColorGUI:
+    aliases:
+      - ChatColors
+    description: The main command
+    usage: /ChatColorGUI </reload>
+  colors:
+    description: the command to open the GUI
+    usage: /colors
+permissions:
+  chatcolorgui.reload.cmd:
+    description: Reload config
+    default: op
+  chatcolorgui.colors.cmd:
+    description: open the GUI
+    default: op
+  chatcolorgui.help.cmd:
+    description: Help Page
+    default: not op
